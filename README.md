@@ -5,7 +5,7 @@
  The original project inforamtion is located in :
    http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
    
-The project uses an R script named "run_analysis.R", located in this repository. In order to run the project the following steps are needed:
+The project uses an R script named "run_analysis.R", located in this repository. The script is develped using R V 3.1.3 in a windows 7 computer. In order to run the project the following steps are needed:
 
   - Download the measurements dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
   - Unzip the downloaded dataset file "getdata-projectfiles-UCI HAR Dataset.zip" in any folder
