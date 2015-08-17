@@ -52,13 +52,23 @@ In order to run the project the following steps are needed:
   submit()
   
   ```
+  If you want to created the resulting dataset **result.txt**, after executing the above script, please execute the following:
+```sh
+#Replace desired_path by a path wher you want to store the file
+ write.table(file="desired_path/result.txt",final_data, row.names=F)
+```  
+  If you want to load the the given dataset, doanload to a path in your computer and execute:
+```sh
+#Replace path_where_the_dataset_file_was_downloaded with the actual path
+final_data<-read.table("path_where_the_dataset_file_was_downloaded/result.txt")
+```  
   
   If you are running R from Rstudio you could easily visualize the resulting data by executing in the shell:
   
 ```sh
 View(final_data)
 ```
-If you are not in Rstudio, you can still visualize the data by saving it as csv, so you can read it using a text editor or Excel:
+If you are not in Rstudio, you can still visualize the data by saving it as csv (a little more readable format), so you can read it using a text editor or Excel:
 
 ```sh
 #Replace desired_path by a path wher you want to store the file
