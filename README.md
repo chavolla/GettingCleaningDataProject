@@ -7,9 +7,9 @@
 ##Data extraction and formating explanation
  Datasets from train and test folders are merged in to a dataset, also the information about the activity and subject are merged to the corresponding rows.
 
- For this project all the columns containing information regarding the **mean** and **standard deviation** is extracted from the original data set. The columns refering to **meanFreq** (mean frequency) is excluded since it refers to a weighted average.
+ For this project all the columns containing information regarding the **mean** and **standard deviation** are extracted from the original data set. The columns refering to **meanFreq** (mean frequency) are excluded since they refer to a weighted average.
  
- The columns names are reformated to create a more readable name using the following rules:
+ The columns names are reformated to create more readable names using the following rules:
  
   - **Acc** turns to Acceleration, since it is really the measure obtained from the accelerometer
   - **Gyro** turns to Rotation, since it is the measure obtained from the Gyroscope
@@ -57,6 +57,7 @@ In order to run the project the following steps are needed:
 #Replace desired_path by a path wher you want to store the file
  write.table(file="desired_path/result.txt",final_data, row.names=F)
 ```  
+##Dataset loading  
   If you want to load the the given dataset, doanload to a path in your computer and execute:
 ```sh
 #Replace path_where_the_dataset_file_was_downloaded with the actual path
