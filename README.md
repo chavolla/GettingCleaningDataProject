@@ -5,7 +5,7 @@
  The original project inforamtion is located in :
    http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 ##Data extraction and formating explanation
- Datasets from training and testing folders are merged in to a dataset, also the information about the activity and subject are merged to the corresponding row.
+ Datasets from train and test folders are merged in to a dataset, also the information about the activity and subject are merged to the corresponding rows.
 
  For this project all the columns containing information regarding the **mean** and **standard deviation** is extracted from the original data set. The columns refering to **meanFreq** (mean frequency) is excluded since it refers to a weighted average.
  
