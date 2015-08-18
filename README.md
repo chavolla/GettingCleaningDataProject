@@ -49,7 +49,7 @@ In order to run the project the following steps are needed:
   
   source("run_analysis.R")
   
-  submit()
+  final_data<-submit()
   
   ```
   If you want to created the resulting dataset **result.txt**, after executing the above script, please execute the following:
