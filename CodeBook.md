@@ -9,7 +9,7 @@ The base dataset obtained from the previous experiment is located at:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-##Dataset handling
+##Dataset handling and transformation
 
   From the previous dataset it is required to extract the information regarding mean values and standard deviation values. MeanFreq value is not included, since is a weighted average. The information about activity and subject is preserved for each observation.
   The resulting dataset is processed to obtain a tidy dataset, so that the column names are in more readable format.
@@ -19,26 +19,27 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 | ------------- | ----------- |
 | **activity**      | The Activity performed by the subject while taking the measurements.<br/>The possible values are:<br/><ul><li>LAYING</li><li>SITTING</li><li>STANDING</li><li>WALKING</li><li>WALKING_DOWNSTAIRS</li><li>WALKING_UPSTAIRS</li> |
 |**subject**|This column indicates the subject id or the persong number included in the test|
-|**BodyX_AxisAccelerationMean**|This is the mean value obtained from the Accelerometer regarding the X axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**BodyY_AxisAccelerationMean**|This is the mean value obtained from the Accelerometer regarding the Y axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**BodyZ_AxisAccelerationMean**|This is the mean value obtained from the Accelerometer regarding the Z axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
+|**BodyX_AxisAccelerationMean**|This is the mean value due to the subject activity obtained from the Accelerometer regarding the X axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
+|**BodyY_AxisAccelerationMean**|This is the mean value due to the subject activity obtained from the Accelerometer regarding the Y axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
+|**BodyZ_AxisAccelerationMean**|This is the mean value due to the subject activity obtained from the Accelerometer regarding the Z axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
+|**BodyX_AxisAccelerationStandardDeviation**|This is the standard deviation value due to the subject activity obtained from the Accelerometer regarding the X axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
+|**BodyY_AxisAccelerationStandardDeviation**|This is the standard deviation value due to the subject activity obtained from the Accelerometer regarding the Y axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
+|**BodyZ_AxisAccelerationStandardDeviation**|This is the standard deviation value due to the subject activity obtained from the Accelerometer regarding the Z axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
+|**GravityX_AxisAccelerationMean**|This is the mean value due to the gravity obtained from the Accelerometer regarding the X axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
+|**GravityY_AxisAccelerationMean**|This is the mean value due to the gravity obtained from the Accelerometer regarding the Y axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
+|**GravityZ_AxisAccelerationMean**|This is the mean value due to the gravity obtained from the Accelerometer regarding the Z axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
+|**GravityX_AxisAccelerationStandardDeviation**|This is the standard deviation value due to the gravity obtained from the Accelerometer regarding the X axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
+|**GravityY_AxisAccelerationStandardDeviation**|This is the standard deviation value due to the gravity obtained from the Accelerometer regarding the Y axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
+|**GravityZ_AxisAccelerationStandardDeviation**|This is the standard deviation value due to the gravity obtained from the Accelerometer regarding the Z axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
+|**BodyX_AxisJerkAccelerationMean**|This is the mean value due to the subject activity obtained from the derivation of the acceleration regarding the X axis for a given activity executed by one subject. The measurement is given in m/s^3|
+|**BodyY_AxisJerkAccelerationMean**|This is the mean value due to the subject activity obtained from the derivation of the acceleration regarding the Y axis for a given activity executed by one subject. The measurement is given in m/s^3|
+|**BodyZ_AxisJerkAccelerationMean**|This is the mean value due to the subject activity obtained from the derivation of the acceleration regarding the Y axis for a given activity executed by one subject. The measurement is given in m/s^3|
 | Close     | Closes a window     |
 
 
 
 
-BodyX_AxisAccelerationStandardDeviation
-BodyY_AxisAccelerationStandardDeviation
-BodyZ_AxisAccelerationStandardDeviation
-GravityX_AxisAccelerationMean
-GravityY_AxisAccelerationMean
-GravityZ_AxisAccelerationMean
-GravityX_AxisAccelerationStandardDeviation
-GravityY_AxisAccelerationStandardDeviation
-GravityZ_AxisAccelerationStandardDeviation
-BodyX_AxisJerkAccelerationMean
-BodyY_AxisJerkAccelerationMean
-BodyZ_AxisJerkAccelerationMean
+
 BodyX_AxisJerkAccelerationStandardDeviation
 BodyY_AxisJerkAccelerationStandardDeviation
 BodyZ_AxisJerkAccelerationStandardDeviation
