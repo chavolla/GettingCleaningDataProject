@@ -1,4 +1,4 @@
-formatTitle<-function(text){
+formatTitle<-function(text){ 
   baseText<-as.character(text);
   sensor<-""
   object<-""
