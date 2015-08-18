@@ -1,6 +1,3 @@
-wd<-"C:\\Users\\chavolla\\Documents\\IQRT\\courses\\Getting and Cleaning Data\\project\\UCI HAR Dataset"
-setwd(wd);
-
 formatTitle<-function(text){
   baseText<-as.character(text);
   sensor<-""
