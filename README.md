@@ -12,7 +12,7 @@
  The columns names are reformated to create more readable names using the following rules:
  
   - **Acc** turns to Acceleration, since it is really the measure obtained from the accelerometer
-  - **Gyro** turns to Rotation, since it is the measure obtained from the Gyroscope
+  - **Gyro** turns to AngularVelocity, since it is the measure obtained from the Gyroscope
   - prefix **f** turns to fourier, since this describes the process given to the current column
   - **mean()** turns to Mean
   - **std()** turns to Standard Deviation
@@ -49,7 +49,7 @@ In order to run the project the following steps are needed:
   
   source("run_analysis.R")
   
-  submit()
+  final_data<-submit()
   
   ```
   If you want to created the resulting dataset **result.txt**, after executing the above script, please execute the following:
