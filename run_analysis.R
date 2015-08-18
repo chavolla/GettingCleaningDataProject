@@ -13,7 +13,7 @@ formatTitle<-function(text){
   if(length(grep("Acc",baseText))){
     sensor<-"Acceleration"
   }else if(length(grep("Gyro",baseText))){
-    sensor<-"Rotation"
+    sensor<-"AngularVelocity"
   }  
   
   if(length(grep("BodyBody|Body",baseText))){
@@ -133,4 +133,8 @@ colnames(filter_data)<-new_names
 #Create a summary to calculate the mean of each column
 final_data <-filter_data %>% group_by(activity,subject) %>%
 summarise_each( funs(mean))
+print("Process done")
+
+final_data
+
 }
