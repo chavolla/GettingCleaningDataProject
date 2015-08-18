@@ -61,7 +61,7 @@ In order to run the project the following steps are needed:
   If you want to load the the given dataset, doanload to a path in your computer and execute:
 ```sh
 #Replace path_where_the_dataset_file_was_downloaded with the actual path
-final_data<-read.table("path_where_the_dataset_file_was_downloaded/result.txt")
+final_data<-read.table("path_where_the_dataset_file_was_downloaded/result.txt", header = TRUE)
 ```  
   
   If you are running R from Rstudio you could easily visualize the resulting data by executing in the shell:
