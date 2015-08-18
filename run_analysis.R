@@ -1,3 +1,18 @@
+#################################################################################################
+##  This script merges the activity, subject, train and test data from the dataset
+## found in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+##  It extracts the columns refering to mean and standard deviation values. Then it formats the 
+## columns names into a more readable style. Finally performs a mean on the resulting dataset 
+## by grouping by activity and subject.
+##  In order to run this script it should be copied into the extracted folder "UCI HAR Dataset"
+## from the base dataset given in the URL. Then execute :
+##  source("run_analysis.R")
+##  final_data<-submit()
+#################################################################################################
+
+#-----------------------------------------------------
+#This funtion formats the name into a more readable one
+#------------------------------------------------------
 formatTitle<-function(text){ 
   baseText<-as.character(text);
   sensor<-""
@@ -49,7 +64,11 @@ formatTitle<-function(text){
   paste0(fourier,object,axis,jerk,sensor,mag,operation)
 }
 
-
+#---------------------------------------------
+#  This funtion is the main entry to the script
+# performs the loading, merging, filtering, 
+# formating and sumarizing of the data.
+#--------------------------------------------
 submit<-function(){
 library(dplyr)
 ##Load headers and activities
