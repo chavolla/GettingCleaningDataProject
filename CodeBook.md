@@ -19,76 +19,70 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 | ------------- | ----------- |
 | **activity**      | The Activity performed by the subject while taking the measurements.<br/>The possible values are:<br/><ul><li>LAYING</li><li>SITTING</li><li>STANDING</li><li>WALKING</li><li>WALKING_DOWNSTAIRS</li><li>WALKING_UPSTAIRS</li> |
 |**subject**|This column indicates the subject id or the persong number included in the test|
-|**BodyX_AxisAccelerationMean**|This is the mean value due to the subject activity obtained from the Accelerometer regarding the X axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**BodyY_AxisAccelerationMean**|This is the mean value due to the subject activity obtained from the Accelerometer regarding the Y axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**BodyZ_AxisAccelerationMean**|This is the mean value due to the subject activity obtained from the Accelerometer regarding the Z axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**BodyX_AxisAccelerationStandardDeviation**|This is the standard deviation value due to the subject activity obtained from the Accelerometer regarding the X axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**BodyY_AxisAccelerationStandardDeviation**|This is the standard deviation value due to the subject activity obtained from the Accelerometer regarding the Y axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**BodyZ_AxisAccelerationStandardDeviation**|This is the standard deviation value due to the subject activity obtained from the Accelerometer regarding the Z axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**GravityX_AxisAccelerationMean**|This is the mean value due to the gravity obtained from the Accelerometer regarding the X axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**GravityY_AxisAccelerationMean**|This is the mean value due to the gravity obtained from the Accelerometer regarding the Y axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**GravityZ_AxisAccelerationMean**|This is the mean value due to the gravity obtained from the Accelerometer regarding the Z axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**GravityX_AxisAccelerationStandardDeviation**|This is the standard deviation value due to the gravity obtained from the Accelerometer regarding the X axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**GravityY_AxisAccelerationStandardDeviation**|This is the standard deviation value due to the gravity obtained from the Accelerometer regarding the Y axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**GravityZ_AxisAccelerationStandardDeviation**|This is the standard deviation value due to the gravity obtained from the Accelerometer regarding the Z axis for a given activity executed by one subject. The measurement is an acceleration is given in m/s^2|
-|**BodyX_AxisJerkAccelerationMean**|This is the mean value due to the subject activity obtained from the derivation of the acceleration regarding the X axis for a given activity executed by one subject. The measurement is given in m/s^3|
-|**BodyY_AxisJerkAccelerationMean**|This is the mean value due to the subject activity obtained from the derivation of the acceleration regarding the Y axis for a given activity executed by one subject. The measurement is given in m/s^3|
-|**BodyZ_AxisJerkAccelerationMean**|This is the mean value due to the subject activity obtained from the derivation of the acceleration regarding the Y axis for a given activity executed by one subject. The measurement is given in m/s^3|
-| Close     | Closes a window     |
-
-
-
-
-
-BodyX_AxisJerkAccelerationStandardDeviation
-BodyY_AxisJerkAccelerationStandardDeviation
-BodyZ_AxisJerkAccelerationStandardDeviation
-BodyX_AxisAngularVelocityMean
-BodyY_AxisAngularVelocityMean
-BodyZ_AxisAngularVelocityMean
-BodyX_AxisAngularVelocityStandardDeviation
-BodyY_AxisAngularVelocityStandardDeviation
-BodyZ_AxisAngularVelocityStandardDeviation
-BodyX_AxisJerkAngularVelocityMean
-BodyY_AxisJerkAngularVelocityMean
-BodyZ_AxisJerkAngularVelocityMean
-BodyX_AxisJerkAngularVelocityStandardDeviation
-BodyY_AxisJerkAngularVelocityStandardDeviation
-BodyZ_AxisJerkAngularVelocityStandardDeviation
-BodyAccelerationMagnitudMean
-BodyAccelerationMagnitudStandardDeviation
-GravityAccelerationMagnitudMean
-GravityAccelerationMagnitudStandardDeviation
-BodyJerkAccelerationMagnitudMean
-BodyJerkAccelerationMagnitudStandardDeviation
-BodyAngularVelocityMagnitudMean
-BodyAngularVelocityMagnitudStandardDeviation
-BodyJerkAngularVelocityMagnitudMean
-BodyJerkAngularVelocityMagnitudStandardDeviation
-fourierBodyX_AxisAccelerationMean
-fourierBodyY_AxisAccelerationMean
-fourierBodyZ_AxisAccelerationMean
-fourierBodyX_AxisAccelerationStandardDeviation
-fourierBodyY_AxisAccelerationStandardDeviation
-fourierBodyZ_AxisAccelerationStandardDeviation
-fourierBodyX_AxisJerkAccelerationMean
-fourierBodyY_AxisJerkAccelerationMean
-fourierBodyZ_AxisJerkAccelerationMean
-fourierBodyX_AxisJerkAccelerationStandardDeviation
-fourierBodyY_AxisJerkAccelerationStandardDeviation
-fourierBodyZ_AxisJerkAccelerationStandardDeviation
-fourierBodyX_AxisAngularVelocityMean
-fourierBodyY_AxisAngularVelocityMean
-fourierBodyZ_AxisAngularVelocityMean
-fourierBodyX_AxisAngularVelocityStandardDeviation
-fourierBodyY_AxisAngularVelocityStandardDeviation
-fourierBodyZ_AxisAngularVelocityStandardDeviation
-fourierBodyAccelerationMagnitudMean
-fourierBodyAccelerationMagnitudStandardDeviation
-fourierBodyJerkAccelerationMagnitudMean
-fourierBodyJerkAccelerationMagnitudStandardDeviation
-fourierBodyAngularVelocityMagnitudMean
-fourierBodyAngularVelocityMagnitudStandardDeviation
-fourierBodyJerkAngularVelocityMagnitudMean
-fourierBodyJerkAngularVelocityMagnitudStandardDeviation
+|**BodyX_AxisAccelerationMean**|This is the mean value  due to the subject activity. Obtained from the Accelerometer regarding the X axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**BodyY_AxisAccelerationMean**|This is the mean value  due to the subject activity. Obtained from the Accelerometer regarding the  Y axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**BodyZ_AxisAccelerationMean**|This is the mean value  due to the subject activity. Obtained from the Accelerometer regarding the Z axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**BodyX_AxisAccelerationStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the Accelerometer regarding the X axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**BodyY_AxisAccelerationStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the Accelerometer regarding the  Y axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**BodyZ_AxisAccelerationStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the Accelerometer regarding the Z axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**GravityX_AxisAccelerationMean**|This is the mean value  due to the gravity. Obtained from the Accelerometer regarding the X axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**GravityY_AxisAccelerationMean**|This is the mean value  due to the gravity. Obtained from the Accelerometer regarding the  Y axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**GravityZ_AxisAccelerationMean**|This is the mean value  due to the gravity. Obtained from the Accelerometer regarding the Z axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**GravityX_AxisAccelerationStandardDeviation**|This is the standard deviation value  due to the gravity. Obtained from the Accelerometer regarding the X axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**GravityY_AxisAccelerationStandardDeviation**|This is the standard deviation value  due to the gravity. Obtained from the Accelerometer regarding the  Y axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**GravityZ_AxisAccelerationStandardDeviation**|This is the standard deviation value  due to the gravity. Obtained from the Accelerometer regarding the Z axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**BodyX_AxisJerkAccelerationMean**|This is the mean value  due to the subject activity. Obtained from the derivation of the acceleration regarding the X axis for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**BodyY_AxisJerkAccelerationMean**|This is the mean value  due to the subject activity. Obtained from the derivation of the acceleration regarding the  Y axis for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**BodyZ_AxisJerkAccelerationMean**|This is the mean value  due to the subject activity. Obtained from the derivation of the acceleration regarding the Z axis for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**BodyX_AxisJerkAccelerationStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the derivation of the acceleration regarding the X axis for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**BodyY_AxisJerkAccelerationStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the derivation of the acceleration regarding the  Y axis for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**BodyZ_AxisJerkAccelerationStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the derivation of the acceleration regarding the Z axis for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**BodyX_AxisAngularVelocityMean**|This is the mean value  due to the subject activity. Obtained from the Gyroscope regarding the X axis for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**BodyY_AxisAngularVelocityMean**|This is the mean value  due to the subject activity. Obtained from the Gyroscope regarding the  Y axis for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**BodyZ_AxisAngularVelocityMean**|This is the mean value  due to the subject activity. Obtained from the Gyroscope regarding the Z axis for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**BodyX_AxisAngularVelocityStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the Gyroscope regarding the X axis for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**BodyY_AxisAngularVelocityStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the Gyroscope regarding the  Y axis for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**BodyZ_AxisAngularVelocityStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the Gyroscope regarding the Z axis for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**BodyX_AxisJerkAngularVelocityMean**|This is the mean value  due to the subject activity. Obtained from the derivation of the Angular velocity regarding the X axis for a given activity executed by the subject.The measurement is given in rad/seconds^2|
+|**BodyY_AxisJerkAngularVelocityMean**|This is the mean value  due to the subject activity. Obtained from the derivation of the Angular velocity regarding the  Y axis for a given activity executed by the subject.The measurement is given in rad/seconds^2|
+|**BodyZ_AxisJerkAngularVelocityMean**|This is the mean value  due to the subject activity. Obtained from the derivation of the Angular velocity regarding the Z axis for a given activity executed by the subject.The measurement is given in rad/seconds^2|
+|**BodyX_AxisJerkAngularVelocityStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the derivation of the Angular velocity regarding the X axis for a given activity executed by the subject.The measurement is given in rad/seconds^2|
+|**BodyY_AxisJerkAngularVelocityStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the derivation of the Angular velocity regarding the  Y axis for a given activity executed by the subject.The measurement is given in rad/seconds^2|
+|**BodyZ_AxisJerkAngularVelocityStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the derivation of the Angular velocity regarding the Z axis for a given activity executed by the subject.The measurement is given in rad/seconds^2|
+|**BodyAccelerationMagnitudMean**|This is the mean value  due to the subject activity. Obtained from the Accelerometer for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**BodyAccelerationMagnitudStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the Accelerometer for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**GravityAccelerationMagnitudMean**|This is the mean value  due to the gravity. Obtained from the Accelerometer for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**GravityAccelerationMagnitudStandardDeviation**|This is the standard deviation value  due to the gravity. Obtained from the Accelerometer for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**BodyJerkAccelerationMagnitudMean**|This is the mean value  due to the subject activity. Obtained from the derivation of the acceleration for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**BodyJerkAccelerationMagnitudStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the derivation of the acceleration for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**BodyAngularVelocityMagnitudMean**|This is the mean value  due to the subject activity. Obtained from the Gyroscope for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**BodyAngularVelocityMagnitudStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the Gyroscope for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**BodyJerkAngularVelocityMagnitudMean**|This is the mean value  due to the subject activity. Obtained from the derivation of the Angular velocity for a given activity executed by the subject.The measurement is given in rad/seconds^2|
+|**BodyJerkAngularVelocityMagnitudStandardDeviation**|This is the standard deviation value  due to the subject activity. Obtained from the derivation of the Angular velocity for a given activity executed by the subject.The measurement is given in rad/seconds^2|
+|**fourierBodyX_AxisAccelerationMean**|This is the mean value comming from the Fourier tranformation due to the subject activity. Obtained from the Accelerometer regarding the X axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**fourierBodyY_AxisAccelerationMean**|This is the mean value comming from the Fourier tranformation due to the subject activity. Obtained from the Accelerometer regarding the  Y axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**fourierBodyZ_AxisAccelerationMean**|This is the mean value comming from the Fourier tranformation due to the subject activity. Obtained from the Accelerometer regarding the Z axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**fourierBodyX_AxisAccelerationStandardDeviation**|This is the standard deviation value comming from the Fourier tranformation due to the subject activity. Obtained from the Accelerometer regarding the X axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**fourierBodyY_AxisAccelerationStandardDeviation**|This is the standard deviation value comming from the Fourier tranformation due to the subject activity. Obtained from the Accelerometer regarding the  Y axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**fourierBodyZ_AxisAccelerationStandardDeviation**|This is the standard deviation value comming from the Fourier tranformation due to the subject activity. Obtained from the Accelerometer regarding the Z axis for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**fourierBodyX_AxisJerkAccelerationMean**|This is the mean value comming from the Fourier tranformation due to the subject activity. Obtained from the derivation of the acceleration regarding the X axis for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**fourierBodyY_AxisJerkAccelerationMean**|This is the mean value comming from the Fourier tranformation due to the subject activity. Obtained from the derivation of the acceleration regarding the  Y axis for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**fourierBodyZ_AxisJerkAccelerationMean**|This is the mean value comming from the Fourier tranformation due to the subject activity. Obtained from the derivation of the acceleration regarding the Z axis for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**fourierBodyX_AxisJerkAccelerationStandardDeviation**|This is the standard deviation value comming from the Fourier tranformation due to the subject activity. Obtained from the derivation of the acceleration regarding the X axis for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**fourierBodyY_AxisJerkAccelerationStandardDeviation**|This is the standard deviation value comming from the Fourier tranformation due to the subject activity. Obtained from the derivation of the acceleration regarding the  Y axis for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**fourierBodyZ_AxisJerkAccelerationStandardDeviation**|This is the standard deviation value comming from the Fourier tranformation due to the subject activity. Obtained from the derivation of the acceleration regarding the Z axis for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**fourierBodyX_AxisAngularVelocityMean**|This is the mean value comming from the Fourier tranformation due to the subject activity. Obtained from the Gyroscope regarding the X axis for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**fourierBodyY_AxisAngularVelocityMean**|This is the mean value comming from the Fourier tranformation due to the subject activity. Obtained from the Gyroscope regarding the  Y axis for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**fourierBodyZ_AxisAngularVelocityMean**|This is the mean value comming from the Fourier tranformation due to the subject activity. Obtained from the Gyroscope regarding the Z axis for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**fourierBodyX_AxisAngularVelocityStandardDeviation**|This is the standard deviation value comming from the Fourier tranformation due to the subject activity. Obtained from the Gyroscope regarding the X axis for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**fourierBodyY_AxisAngularVelocityStandardDeviation**|This is the standard deviation value comming from the Fourier tranformation due to the subject activity. Obtained from the Gyroscope regarding the  Y axis for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**fourierBodyZ_AxisAngularVelocityStandardDeviation**|This is the standard deviation value comming from the Fourier tranformation due to the subject activity. Obtained from the Gyroscope regarding the Z axis for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**fourierBodyAccelerationMagnitudMean**|This is the mean value comming from the Magnitud of the Fourier tranformation due to the subject activity. Obtained from the Accelerometer for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**fourierBodyAccelerationMagnitudStandardDeviation**|This is the standard deviation value comming from the Magnitud of the Fourier tranformation due to the subject activity. Obtained from the Accelerometer for a given activity executed by the subject. The measurement is an acceleration is given in g(gravity units)|
+|**fourierBodyJerkAccelerationMagnitudMean**|This is the mean value comming from the Magnitud of the Fourier tranformation due to the subject activity. Obtained from the derivation of the acceleration for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**fourierBodyJerkAccelerationMagnitudStandardDeviation**|This is the standard deviation value comming from the Magnitud of the Fourier tranformation due to the subject activity. Obtained from the derivation of the acceleration for a given activity executed by the subject. The measurement is an acceleration is given in g/s(gravity units/seconds)|
+|**fourierBodyAngularVelocityMagnitudMean**|This is the mean value comming from the Magnitud of the Fourier tranformation due to the subject activity. Obtained from the Gyroscope for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**fourierBodyAngularVelocityMagnitudStandardDeviation**|This is the standard deviation value comming from the Magnitud of the Fourier tranformation due to the subject activity. Obtained from the Gyroscope for a given activity executed by the subject.The measurement is given in rad/seconds|
+|**fourierBodyJerkAngularVelocityMagnitudMean**|This is the mean value comming from the Magnitud of the Fourier tranformation due to the subject activity. Obtained from the derivation of the Angular velocity for a given activity executed by the subject.The measurement is given in rad/seconds^2|
+|**fourierBodyJerkAngularVelocityMagnitudStandardDeviation**|This is the standard deviation value comming from the Magnitud of the Fourier tranformation due to the subject activity. Obtained from the derivation of the Angular velocity for a given activity executed by the subject.The measurement is given in rad/seconds^2|
 
