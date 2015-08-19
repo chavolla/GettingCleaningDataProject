@@ -12,7 +12,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ##Dataset handling and transformation
 
   From the previous dataset it is required to extract the information regarding mean values and standard deviation values. MeanFreq value is not included, since is a weighted average. The information about activity and subject is preserved for each observation.
-  The resulting dataset is processed to obtain a tidy dataset, so that the column names are in more readable format.
+  
+  The dataset is grouped by activity and subject, then it is calculated the mean for each resulting group. The resulting observations are 180 (6 activities executed by 30 subject).
+  
+  The resulting dataset is processed to obtain a tidy dataset, so that the column names are in more readable format. The dataset contains 68 columns and 180 rows (observations).
+  From the original dataset an issue in the naming was fixed transforming BodyBody into just Body.
+  
+  
 
 ##Data descritption
 | Column | Description          |
