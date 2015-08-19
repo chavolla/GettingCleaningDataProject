@@ -63,7 +63,7 @@ In order to run the project the following steps are needed:
   ```
   
 ##Dataset loading  
-  If you want to load the the given dataset, download to a path in your computer (the file is expected to be named "result.txt") and execute:
+  If you want to load the the given dataset, download it to a path in your computer (the file is expected to be named "result.txt") and execute:
 ```sh
 #Replace path_where_the_dataset_file_was_downloaded with the actual path
 final_data<-read.table("path_where_the_dataset_file_was_downloaded/result.txt", header = TRUE)
