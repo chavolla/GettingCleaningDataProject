@@ -11,7 +11,24 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ##Dataset handling and transformation
 
-  From the previous dataset it is required to extract the information regarding mean values and standard deviation values. MeanFreq value is not included, since is a weighted average. The information about activity and subject is preserved for each observation.
+  From the previous dataset it is required to extract the information regarding **mean** values and **standard deviation** values. **MeanFreq** value is **not included**, since is a weighted average. The information about activity and subject is preserved for each observation.
+  
+   The columns names are reformated to create more readable names using the following rules:
+ 
+  - **Acc** turns to Acceleration, since it is really the measure obtained from the accelerometer
+  - **Gyro** turns to AngularVelocity, since it is the measure obtained from the Gyroscope
+  - prefix **f** turns to fourier, since this describes the process given to the current column
+  - **mean()** turns to Mean
+  - **std()** turns to Standard Deviation
+  - **jerk** turns to Jerk
+  - **Mag** turns to Magnitude
+  - **X** turns to X_Axis
+  - **Y** turns to Y_Axis
+  - **Z** turns to Z_Axis
+  - **Body** and **Gravity** remains the same
+  - prefix **t** is ignored, since default measures are time based
+   
+The names are formed using **Camel Case** style, in order to improve the readability
   
   The dataset is grouped by activity and subject, then it is calculated the mean for each resulting group. The resulting observations are 180 (6 activities executed by 30 subject).
   
